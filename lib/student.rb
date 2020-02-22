@@ -91,4 +91,4 @@ class Student
     DB[:conn].execute(sql)
   end
 end
-Student.first_X_students_in_grade_10(4)
+#Student.first_X_students_in_grade_10(4)
