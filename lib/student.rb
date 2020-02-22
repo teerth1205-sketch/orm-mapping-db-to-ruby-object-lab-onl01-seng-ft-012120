@@ -56,7 +56,8 @@ class Student
     
   end 
   
-  def self.
+  def self.first_X_students_in_grade_10(num)
+    
   
   def save
     sql = <<-SQL
