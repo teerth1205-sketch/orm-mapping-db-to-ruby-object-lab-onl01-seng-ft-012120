@@ -62,7 +62,7 @@ class Student
     sql = "SELECT name FROM students WHERE grade = 10 LIMIT ?"
     
     DB[:conn].execute(sql, num)
-    binding.pry
+    #binding.pry
   end 
   
   def save
