@@ -1,4 +1,4 @@
-#require 'pry'
+require 'pry'
 
 class Student
   attr_accessor :id, :name, :grade
@@ -62,7 +62,7 @@ class Student
     sql = "SELECT * FROM students WHERE grade = 10 LIMIT ?"
     
     DB[:conn].execute(sql, num)
-    #binding.pry
+    binding.pry
   end 
   
   def save
