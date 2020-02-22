@@ -69,7 +69,10 @@ class Student
     #binding.pry
   end 
   
-  def self.
+  def self.first_student_in_grade_10
+    sql = "SELECT * FROM students WHERE grade = 10 LIMIT 1"
+    
+    
   
   def save
     sql = <<-SQL
